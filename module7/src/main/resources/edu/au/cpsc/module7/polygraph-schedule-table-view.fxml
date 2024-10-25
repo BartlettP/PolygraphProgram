@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@Style/main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.module7.PolygraphTableController">
+   <children>
+      <TableView fx:id="polygraphTableView" layoutX="20.0" layoutY="17.0" prefHeight="220.0" prefWidth="564.0" stylesheets="@Style/main.css">
+        <columns>
+          <TableColumn id="designatorColumn" fx:id="nameColumn" prefWidth="110.0" text="Name" />
+          <TableColumn id="departColumn" fx:id="dateColumn" editable="false" minWidth="0.0" prefWidth="85.0" text="Test Date" />
+            <TableColumn id="arriveColumn" fx:id="resultColumn" editable="false" minWidth="0.0" prefWidth="112.0" text="Test Result" />
+            <TableColumn fx:id="typeColumn" editable="false" minWidth="0.0" prefWidth="114.0" text="Test Type" />
+            <TableColumn id="dayColumn" fx:id="nextDateColumn" editable="false" maxWidth="140.0" prefWidth="140.0" text="Next Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

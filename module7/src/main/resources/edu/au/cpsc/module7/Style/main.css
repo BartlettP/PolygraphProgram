@@ -1,0 +1,13 @@
+.error {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
+.root {
+    -fx-base: #2A2A40;
+    -fx-control-inner-background: derive(-fx-base, 20%);
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background, -10%);
+    -fx-accent: #3A4883;
+    -fx-focus-color: #5061A9;
+    -fx-faint-focus-color: #5061A922;
+}
+
